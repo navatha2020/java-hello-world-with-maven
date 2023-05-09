@@ -5,7 +5,10 @@
     <groupId>org.springframework</groupId>
     <artifactId>jb-hello-world-maven</artifactId>
     <packaging>jar</packaging>
-    <version>0.2.0</version>
+    <!--<version>0.2.0</version>-->
+    <version>0.1.${v}-SNAPSHOT</version>
+
+
 
     <!-- tag::joda[] -->
      <properties>
@@ -25,7 +28,7 @@
        
     <build>
          <!--<finalName>myProjectName</finalName> -->
-                 <finalName>jb-hello-world-maven-${artifactversion}</finalName>
+                 <!--<finalName>jb-hello-world-maven-${artifactversion}</finalName>-->
      
         <plugins>
             <plugin>
