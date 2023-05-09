@@ -25,6 +25,7 @@
        
     <build>
          <!--<finalName>myProjectName</finalName> -->
+                 <finalName>jb-hello-world-maven-${artifactversion}</finalName>
      
         <plugins>
             <plugin>
