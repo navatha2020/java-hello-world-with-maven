@@ -24,6 +24,9 @@
        <!-- end::joda[] -->
        
     <build>
+         <finalName>jb-hello-world-maven-${artifactversion}</finalName>
+         <!--<finalName>myProjectName</finalName> -->
+     
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
