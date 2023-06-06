@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="node-app"
+           fetch="git@github.com:navatha2020/node-app.git"/>
+		   
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />
+		   
+  <project path="src/main/java/hello" name="java-hello-world-with-maven" remote="git@github.com:navatha2020/java-hello-world-with-maven.git">  
+  
+  </project>
+</manifest>
