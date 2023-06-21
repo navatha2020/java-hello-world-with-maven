@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/" />  	   
-  <project path="src/main/java/hello" name="java-hello-world-with-maven" remote="git@github.com:navatha2020/java-hello-world-with-maven.git">   
-  </project>
+  
 </manifest>
